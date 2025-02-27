@@ -1,1 +1,1 @@
-../src/gvsat/SolverTypesV.h
+../src/sat/SolverTypesV.h

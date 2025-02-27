@@ -1,1 +1,1 @@
-../src/gvsat/GlobalV.h
+../src/sat/GlobalV.h

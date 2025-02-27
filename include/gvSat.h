@@ -1,1 +1,1 @@
-../src/gvsat/gvSat.h
+../src/sat/gvSat.h

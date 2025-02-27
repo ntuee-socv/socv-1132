@@ -1,1 +1,1 @@
-../src/gvsat/reader.h
+../src/sat/reader.h
