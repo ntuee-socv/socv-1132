@@ -28,12 +28,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 if(NOT CMAKE_BUILD_TYPE)
-    set(CMAKE_BUILD_TYPE Release)
+    set(CMAKE_BUILD_TYPE Build)
 endif()
 
 set(CMAKE_CXX_FLAGS "")
 set(CMAKE_CXX_FLAGS_DEBUG "-g3 -ggdb")
-set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
 
 include(ExternalProject)

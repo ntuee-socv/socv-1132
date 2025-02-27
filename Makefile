@@ -1,11 +1,7 @@
 all: build
 
 build:
-	cmake -S . -B build -DCMAKE_EXPORT_COMPILE_COMMANDS=1 
-	$(MAKE) -C build -j 8 --no-print-directory
-
-release:
-	cmake -S . -B build -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DCMAKE_BUILD_TYPE=Release
+	cmake -S . -B build -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DCMAKE_BUILD_TYPE=Build
 	$(MAKE) -C build -j 8 --no-print-directory
 
 debug:
