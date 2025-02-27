@@ -1,5 +1,5 @@
-# engine files and folders
-engine/
+# build folders
+build/
 # static library files
 lib/
 # headers files
@@ -26,3 +26,6 @@ compile_commands.json
 
 # design and log files
 *.txt
+
+# gv 
+gv

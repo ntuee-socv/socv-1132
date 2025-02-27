@@ -6,7 +6,7 @@
 # GV Installation
 ```json=
 ./SETUP.sh
-./INSTALL.sh 
+make
 ```
 
 - **For using GV tool interface, type after installation:**
